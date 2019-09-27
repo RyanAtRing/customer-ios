@@ -11,13 +11,6 @@ Pod::Spec.new do |s|
     :tag => s.version.to_s
   }
 
-  s.dependency 'libPusher', '~> 1.6.3'
-  s.dependency 'TSMarkdownParser', '~> 2.1.3'
-  s.dependency 'SDWebImage', '~> 4.0'
-  s.dependency 'NYTPhotoViewer', '~> 2.0.0'
-  s.dependency 'SpinKit', '~> 1.1'
-  s.dependency 'TTTAttributedLabel'
-
 
   s.resources = ['Source/**/*.{png,m4a}', 'Source/Strings.bundle']
   s.source_files = 'Source/**/*.{h,m}'
