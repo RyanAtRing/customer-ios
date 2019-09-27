@@ -22,5 +22,4 @@ Pod::Spec.new do |s|
   s.source_files = 'Source/**/*.{h,m}'
   s.requires_arc = true
   s.framework = 'UIKit'
-  s.static_framework = true
 end
