@@ -16,12 +16,11 @@ Pod::Spec.new do |s|
   s.dependency 'SDWebImage', '~> 4.0'
   s.dependency 'NYTPhotoViewer', '~> 2.0.0'
   s.dependency 'SpinKit', '~> 1.1'
-  s.dependency 'TTTAttributedLabel', '~> 2.0.0'
+  s.dependency 'TTTAttributedLabel'
 
 
   s.resources = ['Source/**/*.{png,m4a}', 'Source/Strings.bundle']
   s.source_files = 'Source/**/*.{h,m}'
   s.requires_arc = true
   s.framework = 'UIKit'
-  s.static_framework = true
 end
